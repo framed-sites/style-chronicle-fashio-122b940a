@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Star } from 'lucide-react'
 import { Button } from '../components/ui/button'
 import { Card, CardContent } from '../components/ui/card'
+import { ScrollReveal } from '../components/ui/scroll-reveal'
 
 function HeroSection0() {
   return (

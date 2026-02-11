@@ -17,8 +17,8 @@ export default function Header() {
           <Link to="/blog" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">All Articles</Link>
           <Link to="/topics" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Topics</Link>
           <Link to="/street-style-gallery" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Street Style Gallery</Link>
-          <Link to="/the-edit-shop-my-picks" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">The Edit — Shop My Picks</Link>
-          <Link to="/about-me" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">About Me</Link>
+          <Link to="/shop-my-picks" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">The Edit — Shop My Picks</Link>
+          <Link to="/contact" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Contact & Collaborations</Link>
         </nav>
 
         {/* Mobile menu */}
@@ -37,8 +37,8 @@ export default function Header() {
               <Link to="/blog" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">All Articles</Link>
               <Link to="/topics" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Topics</Link>
               <Link to="/street-style-gallery" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Street Style Gallery</Link>
-              <Link to="/the-edit-shop-my-picks" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">The Edit — Shop My Picks</Link>
-              <Link to="/about-me" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">About Me</Link>
+              <Link to="/shop-my-picks" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">The Edit — Shop My Picks</Link>
+              <Link to="/contact" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Contact & Collaborations</Link>
             </nav>
           </SheetContent>
         </Sheet>

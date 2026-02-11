@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { ZoomIn } from 'lucide-react'
 import { Button } from '../components/ui/button'
+import { ScrollReveal } from '../components/ui/scroll-reveal'
 
 function HeroSection0() {
   return (

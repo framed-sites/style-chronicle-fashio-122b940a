@@ -5,10 +5,10 @@ import BlogPage from './pages/Blog'
 import CategoriesPage from './pages/Categories'
 import LookbookPage from './pages/Lookbook'
 import ShopEditPage from './pages/ShopEdit'
+import StyleQuizPage from './pages/StyleQuiz'
 import AboutPage from './pages/About'
 import NewsletterPage from './pages/Newsletter'
 import ContactPage from './pages/Contact'
-import StyleQuizPage from './pages/StyleQuiz'
 
 export default function App() {
   return (
@@ -18,11 +18,11 @@ export default function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/topics" element={<CategoriesPage />} />
         <Route path="/street-style-gallery" element={<LookbookPage />} />
-        <Route path="/the-edit-shop-my-picks" element={<ShopEditPage />} />
+        <Route path="/shop-my-picks" element={<ShopEditPage />} />
+        <Route path="/find-your-style" element={<StyleQuizPage />} />
         <Route path="/about-me" element={<AboutPage />} />
         <Route path="/the-weekly-thread" element={<NewsletterPage />} />
-        <Route path="/contact-collaborations" element={<ContactPage />} />
-        <Route path="/find-your-style" element={<StyleQuizPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Route>
     </Routes>
   )
